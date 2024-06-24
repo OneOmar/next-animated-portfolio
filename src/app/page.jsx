@@ -36,7 +36,7 @@ const Homepage = () => {
 
           {/* Links */}
           <div className='w-full flex gap-5 justify-center lg:justify-start'>
-            <Link href='/portfolio'>
+            <Link href='/projects'>
               <button className='py-3 px-4 rounded-lg ring-1 ring-black bg-black text-white hover:bg-white hover:text-black transition-colors'>
                 View My Work
               </button>
