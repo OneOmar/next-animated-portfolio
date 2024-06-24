@@ -1,34 +1,34 @@
 export const projects = [
     {
-        slug: 'project-one',
-        title: 'Project One',
-        description: 'Description for project one. It involves technologies such as React, Node.js, and MongoDB.',
-        image: '/project-one.webp',
-        technologies: ['React', 'Node.js', 'MongoDB'],
-        githubLink: 'project-one-github-link'
+        slug: 'nextjs-blog-app',
+        title: 'Next.js Blog App',
+        description: 'Developed a full-featured blog application with Next.js, including SEO optimization and dynamic content management.',
+        image: '/next-blog-app.png',
+        technologies: ['Next.js', 'Auth.js', 'MongoDB'],
+        githubLink: 'https://github.com/your-username/nextjs-blog-app'
     },
     {
-        slug: 'project-two',
-        title: 'Project Two',
-        description: 'Description for project two. It involves technologies such as Next.js, GraphQL, and PostgreSQL.',
-        image: '/project-one.webp',
-        technologies: ['Next.js', 'GraphQL', 'PostgreSQL'],
-        githubLink: 'project-two-github-link'
+        slug: 'react-real-estate-app',
+        title: 'React Real Estate App UI Design',
+        description: 'Designed a user-friendly and visually appealing real estate application using React and SASS.',
+        image: '/real-estate-app.png',
+        technologies: ['React', 'SASS'],
+        githubLink: 'https://github.com/your-username/react-real-estate-app-ui-design'
     },
     {
-        slug: 'project-three',
-        title: 'Project Three',
-        description: 'Description for project three. It involves technologies such as Angular, Express.js, and MySQL.',
-        image: '/project-one.webp',
-        technologies: ['Angular', 'Express.js', 'MySQL'],
-        githubLink: 'project-three-github-link'
+        slug: 'remote-jobs-application',
+        title: 'Remote Jobs Application',
+        description: 'Created a responsive remote job listing application using React, featuring advanced filtering and search capabilities.',
+        image: '/remote-job-app.png',
+        technologies: ['React', 'Bootstrap'],
+        githubLink: 'https://github.com/OneOmar/remote-jobs-react/'
     },
     {
-        slug: 'project-four',
-        title: 'Project Four',
-        description: 'Description for project four. It involves technologies such as Vue.js, Django, and SQLite.',
-        image: '/project-one.webp',
-        technologies: ['Vue.js', 'Django', 'SQLite'],
-        githubLink: 'project-four-github-link'
+        slug: 'fiasco-restaurant-template',
+        title: 'FIASCO Restaurant Template',
+        description: 'Developed a modern and responsive restaurant website template using HTML5 and CSS3, with a focus on clean design and usability.',
+        image: '/fiasco-restaurant.png',
+        technologies: ['HTML5', 'CSS3'],
+        githubLink: 'https://github.com/OneOmar/Restaurant_Fiasco'
     }
 ]
