@@ -20,14 +20,16 @@ export const TransitionProvider = ({ children }) => {
           exit={{ height: '120vh' }}
           transition={{ duration: 0.5, ease: 'easeInOut' }}
         />
+
         <motion.div
           className='fixed top-0 bottom-0 left-0 right-0 text-6xl font-bold text-white w-fit h-fit m-auto z-50'
           initial={{ opacity: 1 }}
-          animate={{ opacity: 0 }}
+          animate={{ opacity: 0, zIndex: -1 }}
           transition={{ duration: 0.8, ease: 'easeInOut' }}
         >
           {pageTitle}
         </motion.div>
+
         <motion.div
           className='fixed h-screen w-screen bottom-0 bg-black rounded-t-[100px] z-40'
           initial={{ height: '120vh' }}
