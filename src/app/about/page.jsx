@@ -31,11 +31,13 @@ const AboutPage = () => {
               alt='profile-image'
               width={100}
               height={100}
-              className='rounded-full object-cover'
+              className='rounded-full object-cover mx-auto sm:mx-0'
             />
 
             {/* Biography Title */}
-            <h1 className='font-bold text-2xl'>BIOGRAPHY</h1>
+            <h1 className='font-bold text-2xl text-center sm:text-left'>
+              BIOGRAPHY
+            </h1>
 
             {/* Biography Description */}
             <p className='text-base sm:text-lg'>

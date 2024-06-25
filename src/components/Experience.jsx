@@ -3,22 +3,22 @@ import { motion, useInView } from 'framer-motion'
 
 const experiences = [
   {
-    title: 'Senior JavaScript Engineer',
-    desc: 'I led web development, offering expertise in JavaScript frameworks.',
-    date: '2024 - Present',
-    company: 'Apple'
-  },
-  {
-    title: 'Front-End Developer',
-    desc: 'I developed and maintained web applications using ReactJS.',
-    date: '2021 - 2024',
-    company: 'Google'
+    title: 'Digital Marketer and Web Designer',
+    desc: 'I Design, develop, and maintain websites using YouCan. And optimize digital campaigns for brand awareness and conversions.',
+    date: '2023 - 2024',
+    company: 'COD Network'
   },
   {
     title: 'Web Developer',
-    desc: 'I developed and maintained web applications using ReactJS.',
-    date: '2018 - 2021',
-    company: 'Facebook'
+    desc: 'I developed and maintained web applications using ReactJS and Bootstrap.',
+    date: '2021 - 2023',
+    company: 'Naitup'
+  },
+  {
+    title: 'Geotechnical Engineer  Intern',
+    desc: 'Assisted senior engineers in geotechnical site investigations and analysis.',
+    date: '2018',
+    company: 'Jacobs Engineering SA'
   }
 ]
 
